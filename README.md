@@ -22,6 +22,9 @@ I made the choice to use two for loops instead of one although it would increase
 
 The aim of this system is to optimize the use of a limited set of washing machines while accounting for a large number of users operating on tight schedules.
 The system starts by asking the user to enter their details: name, netID, and building number. The user is then prompted with a menu of two choices: (1) starting a cycle or (2) Reporting a problem.
+
+![My Image](diagram.jpg)
+
 - Case 1: Starting a cycle
 
 We set the number of machines in our system to 5 which we represent as objects of class Machine. We create a static vector of size 5 of pointers to objects Machine which we initialize to their respective numbers and to a flag of 0. The flag is a boolean variable that helps us track the status of each machine: true means occupied and false means free.
