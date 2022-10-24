@@ -36,6 +36,6 @@ In the main, we construct a for loop that loops through the elements of the vect
 I know, from experience, that many times the machine would burn clothes or not wash them properly. Often, students want to report the machine so upcoming users do not use it, but cannot. Here, I implement a function where the user can report a problem in their machine by indicating their netID and the starting time.
 The system would save the information (provided we do not re-run the program, which we wouldn’t do in a real-life scenario) and print a receipt to the user.
 
-## target Audience 
+## Target Audience 
 
 I made this program specifically for college students (that’s why I ask for netID :)) because laundry is one of those chores we do not enjoy doing. I believe this system could make doing laundry a little less daunting but it can also be used in the setting of a residential building in the city or the like.
