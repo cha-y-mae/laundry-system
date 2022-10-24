@@ -23,7 +23,7 @@ I made the choice to use two for loops instead of one although it would increase
 The aim of this system is to optimize the use of a limited set of washing machines while accounting for a large number of users operating on tight schedules.
 The system starts by asking the user to enter their details: name, netID, and building number. The user is then prompted with a menu of two choices: (1) starting a cycle or (2) Reporting a problem.
 
-![My Image](diagram.jpg)
+![Diagram](diagram.png)
 
 - Case 1: Starting a cycle
 
