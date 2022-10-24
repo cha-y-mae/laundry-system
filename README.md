@@ -14,6 +14,7 @@ Initially, I designed the program using system time in a way that whenever you r
    
 cycle of 30 seconds in the system. Although this solution provided a simple way of testing, it is quite not realistic.
 The solution I ended up implementing was taking the starting time as user input and using a function to make sure that user input is valid. The input is valid when it is greater than system time. I use chrono library to find real time, but if run on repl.it it will calculate time in UTC which in advance of 4 hours to GST.
+
 I make the assumption that the program is ran every day, so we do not need to also check if the user is starting the cycle on the same day. Also, I store the history of the system in a data file. Thus, the data file would contain data of each day only.
 I made the choice to use two for loops instead of one although it would increase time complexity because I want to make sure that we are using the 5 machines somewhat equally. If we had one for loop, we might end up using 1 or 2 machines only and thus exhaust them. When looping twice, we make sure that the 5 machines are first filled before we assign them to the user.
 
@@ -34,3 +35,7 @@ In the main, we construct a for loop that loops through the elements of the vect
 
 I know, from experience, that many times the machine would burn clothes or not wash them properly. Often, students want to report the machine so upcoming users do not use it, but cannot. Here, I implement a function where the user can report a problem in their machine by indicating their netID and the starting time.
 The system would save the information (provided we do not re-run the program, which we wouldn’t do in a real-life scenario) and print a receipt to the user.
+
+## target Audience 
+
+I made this program specifically for college students (that’s why I ask for netID :)) because laundry is one of those chores we do not enjoy doing. I believe this system could make doing laundry a little less daunting but it can also be used in the setting of a residential building in the city or the like.
